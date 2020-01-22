@@ -1,0 +1,14 @@
+<?php
+require_once 'config.php';
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Home</title>
+    </head>
+    <body>
+        Welcome! You have successfully logged in. Thank you.
+        <a href="<?php echo WEB_ROOT; ?>logout.php" onclick="return confirm('Are you sure want to logout?')">Logout</a>
+    </body>
+</html>
