@@ -1,0 +1,1 @@
+You can read tutorial at https://www.roytuts.com/delete-multiple-rows-from-table-using-php-mysql-ajax-jquery
