@@ -4,7 +4,7 @@ function get_operating_system() {
     $u_agent = $_SERVER['HTTP_USER_AGENT'];
     $operating_system = 'Unknown Operating System';
 
-    //Get the operating_system
+    //Get the operating_system name
     if (preg_match('/linux/i', $u_agent)) {
         $operating_system = 'Linux';
     } elseif (preg_match('/macintosh|mac os x|mac_powerpc/i', $u_agent)) {
