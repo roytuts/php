@@ -23,7 +23,7 @@ function time_ago($date) {
 
 		if ($difference > 0) { // this was in the past time
 			$ending = "ago";
-		} else { // this was in the future time
+		} else { // this is in the future time
 			$difference = -$difference;
 			$ending = "to go";
 		}
