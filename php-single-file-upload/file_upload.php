@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>PHP File Upload Example</title>
+        <title>PHP Single File Upload Example</title>
     </head>
     <body>
 		<h1>Single File Upload Example using PHP</h1>
@@ -27,7 +27,7 @@
         ?>
 
         <form name="upload_form" enctype="multipart/form-data" action="file_upload.php" method="POST">
-            <label>File</label>&nbsp;<input type="file" id="file" name="file" /><br/><br/>
+            <label>Select a File</label>&nbsp;<input type="file" id="file" name="file" /><br/><br/>
             <input type="submit" name="upload" value="Upload"/>
         </form>
     </body>
