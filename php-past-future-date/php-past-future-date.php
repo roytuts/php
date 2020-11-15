@@ -16,3 +16,17 @@ $past_date = date($date_format, strtotime($date . ' - 30 days')); //past date af
 echo 'Past date : ' . $past_date . '(' . $date_format . ')';
 echo nl2br("\r\n");
 echo 'Past date with respect to current date: ' . date($date_format, strtotime($curr_date . ' - 30 days'));
+
+echo nl2br("\r\n");
+echo nl2br("\r\n");
+echo 'Other textual values that get converted into Unix timestamps';
+echo nl2br("\r\n");
+echo "==============================================================";
+echo nl2br("\r\n");
+echo(strtotime("now") . "<br>");
+echo(strtotime("3 October 2005") . "<br>");
+echo(strtotime("+5 hours") . "<br>");
+echo(strtotime("+1 week") . "<br>");
+echo(strtotime("+1 week 3 days 7 hours 5 seconds") . "<br>");
+echo(strtotime("next Monday") . "<br>");
+echo(strtotime("last Sunday"));
