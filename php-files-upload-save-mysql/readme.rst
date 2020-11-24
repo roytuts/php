@@ -1,0 +1,1 @@
+You can read tutorial https://roytuts.com/save-files-to-mysql-using-php/
