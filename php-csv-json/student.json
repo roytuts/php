@@ -1,0 +1,32 @@
+{
+    "1": {
+        "student_id": "1",
+        "student_dob": "01-01-1980",
+        "student_email": "sumit@email.com",
+        "student_address": "Garifa"
+    },
+    "2": {
+        "student_id": "2",
+        "student_dob": "01-01-1982",
+        "student_email": "gourab@email.com",
+        "student_address": "Garia"
+    },
+    "3": {
+        "student_id": "3",
+        "student_dob": "01-01-1982",
+        "student_email": "debina@email.com",
+        "student_address": "Salt Lake"
+    },
+    "4": {
+        "student_id": "4",
+        "student_dob": "01-01-1992",
+        "student_email": "souvik@email.com",
+        "student_address": "Alipore"
+    },
+    "5": {
+        "student_id": "5",
+        "student_dob": "01-01-1990",
+        "student_email": "liton@email.com",
+        "student_address": "Salt Lake"
+    }
+}

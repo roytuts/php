@@ -1,0 +1,1 @@
+You can read tutorial https://roytuts.com/how-to-convert-csv-to-json-in-php/
