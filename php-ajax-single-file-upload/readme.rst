@@ -1,1 +1,1 @@
-You can read tutorial https://www.roytuts.com/ajax-file-upload-using-php-jquery/
+You can read tutorial https://roytuts.com/ajax-file-upload-using-php-jquery/

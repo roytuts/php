@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>PHP AJAX Single File Upload Example</title>
-		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
 		<script type="text/javascript">
             $(document).ready(function (e) {
                 $('#upload').on('click', function () {
