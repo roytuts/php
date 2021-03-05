@@ -1,1 +1,1 @@
-You can read tutorial at https://www.roytuts.com/ajax-multiple-files-upload-using-php-jquery/
+You can read tutorial at https://roytuts.com/ajax-multiple-files-upload-using-php-jquery/
