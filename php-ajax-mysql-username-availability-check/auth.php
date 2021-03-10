@@ -3,8 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Check username availability using PHP, AJAX, MySQL</title>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script src="https://code.jquery.com/jquery-migrate-3.1.0.min.js"></script>
+	<!--<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>-->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+	<!--<script src="https://code.jquery.com/jquery-migrate-3.1.0.min.js"></script>-->
+	<script src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 </head>
 <body>
