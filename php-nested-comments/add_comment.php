@@ -6,7 +6,7 @@
 	if (isset($_POST)) {
 		$parent_id = ($_POST['reply_id'] == NULL || $_POST['reply_id'] == '') ? 0 : $_POST['reply_id'];
 		$comment_text = $_POST['comment_text'];
-		$depth_level = $_POST['depth_level'];
+		$depth_level = ($_POST['depth_level'] == NULL || $_POST['depth_level'] == '') ? 0 : $_POST['depth_level'];;
 		$sql = "INSERT INTO comment(comment_text, parent_id) VALUES('$comment_text', $parent_id)";
 		$query = dbQuery($sql);
 		$inserted_id = dbInsertId();

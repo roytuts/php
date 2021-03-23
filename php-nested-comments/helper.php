@@ -1,5 +1,12 @@
 <?php
 
+	function my_each(&$arr) {
+		$key = key($arr);
+		$result = ($key === null) ? false : [$key, current($arr), 'key' => $key, 'value' => current($arr)];
+		next($arr);
+		return $result;
+	}
+
 	function format_comments($comments) {
 		$html = array();
 		$root_id = 0;
@@ -16,7 +23,8 @@
 		// HTML wrapper for the menu (open)
 		$html[] = '<ul class="comment">';
 
-		while ($loop && ( ( $option = each($children[$parent]) ) || ( $parent > $root_id ) )) {
+		//while ($loop && ( ( $option = each($children[$parent]) ) || ( $parent > $root_id ) )) { //below PHP 7.2
+		while ($loop && ( ( $option = my_each($children[$parent]) ) || ( $parent > $root_id ) )) { //PHP 7.2+
 			if ($option === false) {
 				$parent = array_pop($parent_stack);
 

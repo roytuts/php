@@ -4,10 +4,13 @@
         <meta charset="UTF-8">
         <title>Nested or hierarchical comment system in PHP, AJAX, Jquery</title>
         <link rel="stylesheet" href="comments.css">
-        <script src="jquery-1.9.1.min.js"></script>
-        <script src="jquery-ui-1.10.3-custom.min.js"></script>
-        <script src="jquery-migrate-1.2.1.js"></script>
-        <script src="jquery.blockUI.js"></script>
+        <!--<script src="jquery-1.9.1.min.js"></script>-->
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+        <!--<script src="jquery-ui-1.10.3-custom.min.js"></script>-->
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" crossorigin="anonymous"></script>
+        <!--<script src="jquery-migrate-1.2.1.js"></script>-->
+        <!--<script src="jquery.blockUI.js"></script>-->
+		<script src="jquery.blockUI-2.70.0.js"></script>
         <script src="comments_blog.js"></script>
     </head>
     <body>

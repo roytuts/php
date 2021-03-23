@@ -1,9 +1,11 @@
 $(function() {
     $("#cancel-comment-reply-link").hide();
-    $(".reply_button").live('click', function(event) {
+    //$(".reply_button").live('click', function(event) { //jQuery upto 1.9
+	$(".reply_button").on('click', function(event) { //jQuery 1.9+
         event.preventDefault();
         var id = $(this).attr("id");
-        if ($("#li_comment_" + id).find('ul').size() > 0) {
+        //if ($("#li_comment_" + id).find('ul').size() > 0) { //jQuery upto 1.9
+		if ($("#li_comment_" + id).find('ul').length > 0) { //jQuery 1.9+
             $("#li_comment_" + id + " ul:first").prepend($("#comment_form_wrapper"));
         } else {
             $("#li_comment_" + id).append($("#comment_form_wrapper"));
@@ -23,8 +25,7 @@ $(function() {
 
     $("#comment_form").bind("submit", function(event) {
         event.preventDefault();
-        if ($("#comment_text").val() == "")
-        {
+        if ($("#comment_text").val() == "") {
             alert("Please enter your comment");
             return false;
         }
@@ -56,7 +57,8 @@ $(function() {
                     $("#comment_wrapper ul:first").prepend(comment);
                 }
                 else {
-                    if ($("#li_comment_" + reply_id).find('ul').size() > 0) {
+					//if ($("#li_comment_" + reply_id).find('ul').size() > 0) { //jQuery upto 1.9
+                    if ($("#li_comment_" + reply_id).find('ul').length > 0) { //jQuery 1.9+
                         $("#li_comment_" + reply_id + " ul:first").prepend(comment);
                     }
                     else {

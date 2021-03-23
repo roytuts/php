@@ -1,1 +1,1 @@
-You can read tutorial https://www.roytuts.com/nested-comment-system-in-php-ajax/
+You can read tutorial https://roytuts.com/nested-comment-system-in-php-ajax/
