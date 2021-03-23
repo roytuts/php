@@ -1,6 +1,7 @@
 <?php
+session_start();
 
-function check_login() {
+function check_login() {	
     /* Check if user has been remembered */
     if (isset($_COOKIE['cookname'])) {
         $_SESSION['user_name'] = $_COOKIE['cookname'];
@@ -36,7 +37,7 @@ function check_login() {
 }
 
 //user login
-function user_login($username, $password) {
+function user_login($username, $password) {	
 	if (check_login() === TRUE) {
 		header('Location:' . WEB_ROOT . 'home.php');
 		exit;
@@ -112,7 +113,6 @@ function confirm_user($username, $password) {
 
 //do user logout
 function user_logout() {
-    session_start();
     $_SESSION = array(); // reset session array
     session_destroy();   // destroy session
 	

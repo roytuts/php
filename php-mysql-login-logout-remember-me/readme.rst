@@ -1,1 +1,1 @@
-You can read tutorial https://www.roytuts.com/php-mysql-login-logout-with-remember-me/
+You can read tutorial https://roytuts.com/codeigniter-login-logout-with-remembr-me/

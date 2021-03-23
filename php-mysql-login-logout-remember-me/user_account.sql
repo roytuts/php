@@ -1,10 +1,10 @@
 CREATE TABLE `user_account` (
-  `account_id` int unsigned NOT NULL AUTO_INCREMENT,
-  `account_login` varchar(25) NOT NULL,
-  `account_password` varchar(255) NOT NULL,
-  `user_name` varchar(30) NOT NULL,
-  `user_email` varchar(100) NOT NULL,
-  `last_login` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `account_id` int unsigned COLLATE utf8mb4_unicode_ci NOT NULL AUTO_INCREMENT,
+  `account_login` varchar(25) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `account_password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `user_name` varchar(30) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `user_email` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `last_login` timestamp COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`account_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
