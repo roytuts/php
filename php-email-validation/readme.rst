@@ -1,0 +1,1 @@
+Please follow the tutorial https://roytuts.com/email-address-validation-example-in-php/
