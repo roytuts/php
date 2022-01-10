@@ -1,0 +1,1 @@
+Please follow the tutorial https://roytuts.com/html-script-integrity-attribute-subrresource-integrity-sri/
