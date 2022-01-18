@@ -1,0 +1,1 @@
+Please follow the tutorial https://roytuts.com/get-mime-type-from-file-extension-using-php/
