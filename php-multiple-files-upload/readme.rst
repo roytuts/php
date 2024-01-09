@@ -1,1 +1,1 @@
-https://www.roytuts.com/php-multiple-files-upload-example/
+Please follow the tutorial https://roytuts.com/php-multiple-files-upload-example/
