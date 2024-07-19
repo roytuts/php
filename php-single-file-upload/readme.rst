@@ -1,1 +1,1 @@
-You can read tutorial https://www.roytuts.com/php-file-upload-example/
+Please follow the tutorial https://roytuts.com/php-file-upload-example/
