@@ -1,1 +1,1 @@
-You can read tutorial https://www.roytuts.com/how-to-resize-bulk-images-using-php/
+Please follow the tutorial https://roytuts.com/how-to-resize-bulk-images-using-php/
