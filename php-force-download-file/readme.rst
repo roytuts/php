@@ -1,1 +1,1 @@
-You can read tutorial https://www.roytuts.com/force-download-a-file-using-php/
+Please follow the tutorial https://roytuts.com/force-download-a-file-using-php/
