@@ -1,6 +1,7 @@
 <?php
 
-echo nl2br('Current Date and Time -> '.date('Y-m-d H:i:s')."\n");
+$date = date('Y-m-d H:i:s');
+echo nl2br($date. ' -> ' . time_ago($date)."\n");
 
 $date = '2014-04-10 14:20:15';
 echo nl2br($date. ' -> ' . time_ago($date)."\n");
@@ -28,8 +29,11 @@ function time_ago($date) {
 			$ending = "to go";
 		}
 		
-		for ($j = 0; $difference >= $lengths[$j]; $j++)
+		//echo '$difference: ' . $difference;
+		
+		for ($j = 0; $j < count($lengths) && $difference >= $lengths[$j]; $j++) {
 			$difference /= $lengths[$j];
+		}
 		
 		$difference = round($difference);
 		
